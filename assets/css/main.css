@@ -3459,7 +3459,6 @@
 	opacity: 54%;
 }
 
-.super_logo {
-	width: 500px;
-	height: 500px;
+.super_logo img {
+	width: 100%;
 }
