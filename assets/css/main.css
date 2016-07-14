@@ -2278,6 +2278,8 @@
 		}
 
 			.main.style1 h2 {
+				color: #000000;
+				opacity: 87%;
 				font-size: 4.25em;
 				line-height: 1em;
 				letter-spacing: -4px;
@@ -2873,7 +2875,8 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/bg.jpg");
+		/*background: url("images/overlay.png"), url("../../images/bg.jpg");*/
+		background-color: #000000
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -3449,3 +3452,14 @@
 			}
 
 	}
+/*Vash Studio editions*/
+
+.headline {
+	color: #000000;
+	opacity: 54%;
+}
+
+.super_logo {
+	width: 500px;
+	height: 500px;
+}
