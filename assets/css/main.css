@@ -2370,11 +2370,11 @@
 			}
 
 			.main.style3.primary {
-				background: #fff;
+				background: #ffffff;
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #ffffff;
 			}
 
 /* Dark */
@@ -2895,11 +2895,26 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		/*height: 100%;*/
+		/*width: 100%;*/
+		/*position:absolute;*/
+		/*top: 0;*/
+		/*left: 0;*/
+		z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 	}
+
+	/* Fourth */
+
+		#fourth {
+			background: url("images/overlay.png"), url("../../images/two.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
 
 /* Work */
 

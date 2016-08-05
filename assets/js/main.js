@@ -228,6 +228,7 @@
 					$window.trigger('resize');
 				});
 
+
 	});
 
 })(jQuery);
